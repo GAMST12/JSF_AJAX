@@ -17,6 +17,6 @@ public class AjaxBeanA {
     }
 
     public String getProcessMessage() {
-        return "Hello " + message;
+        return "Hello, hello " + message;
     }
 }
