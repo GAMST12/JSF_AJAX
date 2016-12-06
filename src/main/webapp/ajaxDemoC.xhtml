@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html">
+<h:head>
+</h:head>
+<h:body>
+    <h2>Ajax Example: EVENT</h2>
+    <h:form>
+        <fieldset>
+            <legend>On-the-Fly Temperature Converter...</legend>
+            Temperature in Fahrenheit:
+            <h:inputText value="#{ajaxBeanC.fTemp}">
+                <f:ajax event="keyup"
+                        render="cField kField"/>
+            </h:inputText>
+            <br/>
+            <h2>
+                Temperature in Celsius:
+                <h:outputText value="#{ajaxBeanC.cTemp}"
+                                id="cField"/><br/>
+                Temperature in Kelven:
+                <h:outputText value="#{ajaxBeanC.kTemp}"
+                              id="kField"/><br/>
+
+            </h2>
+        </fieldset>
+    </h:form>
+</h:body>
+</html>

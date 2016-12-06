@@ -1,0 +1,14 @@
+информативная презентация по JSF + AJAX
+ = http://courses.coreservlets.com/Course-Materials/pdf/jsf/jsf2/JSF2-Ajax...
+
+ AJAX
+ = http://en.wikipedia.org/wiki/AJAX_(programming)
+
+ COMET
+  = http://en.wikipedia.org/wiki/Comet_(programming)
+
+  WebSockets Demo
+  = Tomcat 8 examples
+
+  WebSockets Demo
+  = http://demos.lightstreamer.com/StockListDemo
